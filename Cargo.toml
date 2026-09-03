@@ -1,0 +1,18 @@
+[package]
+name = "demo-selenium-rust"
+version = "1.0.0"
+edition = "2021"
+description = "Demo Selenium Rust"
+license = "MIT OR Apache-2.0 OR GPL-2.0-only OR GPL-3.0-only OR BSD-3-Clause"
+authors = ["Joel Parker Henderson <joel@joelparkerhenderson.com>"]
+repository = "https://github.com/testingexamples/demo-selenium-rust/"
+publish = false
+
+[[bin]]
+name = "demo-selenium-rust"
+path = "src/main.rs"
+
+[dependencies]
+thirtyfour = "0.36"
+tokio = { version = "1", features = ["full"] }
+anyhow = "1"

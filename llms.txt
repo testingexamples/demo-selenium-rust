@@ -1,0 +1,19 @@
+# Demo Selenium Rust
+
+> A small Rust walkthrough demo that uses the `thirtyfour` crate to connect to a WebDriver server, navigate to testingexamples.github.io, and demonstrate locator strategies and form interactions.
+
+## Docs
+
+- [README](README.md): Install and run instructions.
+- [Spec](spec/index.md): The exact scenario this demo walks through - target URL, every locator, every form interaction.
+- [Agent instructions](AGENTS.md): Source-of-truth pointer and non-negotiables for agents working on this repo.
+- [Citation](CITATION.cff): How to cite this software.
+
+## Source
+
+- [main.rs](src/main.rs): The Selenium walkthrough program itself.
+
+## Optional
+
+- [Live site under test](https://testingexamples.github.io): The public page the demo automates.
+- [thirtyfour on crates.io](https://crates.io/crates/thirtyfour): The Rust crate this demo depends on.
