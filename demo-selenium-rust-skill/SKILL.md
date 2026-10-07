@@ -6,7 +6,7 @@ description: Use when asked to run, explain, or extend the demo-selenium-rust lo
 # Demo Selenium Rust Skill
 
 This repo teaches five Selenium locator strategies and four form
-interactions against the public page https://testingexamples.github.io,
+interactions against the public page https://testingexamples.github.io/en-001/practice/,
 using the `thirtyfour` crate — the de facto Selenium/WebDriver client for
 Rust (there is no official Selenium Rust binding).
 

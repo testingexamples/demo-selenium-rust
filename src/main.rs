@@ -36,7 +36,7 @@ async fn main() -> anyhow::Result<()> {
 
 async fn run_demo(driver: &WebDriver) -> anyhow::Result<()> {
     // Navigate to the site.
-    driver.goto("https://testingexamples.github.io").await?;
+    driver.goto("https://testingexamples.github.io/en-001/practice/").await?;
 
     // ---
     // Find elements in various ways.

@@ -2,7 +2,7 @@
 
 This repo is a small Selenium walkthrough demo, written in Rust using the
 `thirtyfour` crate, that connects to a WebDriver server (e.g.
-`chromedriver`), navigates to https://testingexamples.github.io, and
+`chromedriver`), navigates to https://testingexamples.github.io/en-001/practice/, and
 demonstrates five ways to locate elements plus four form interactions,
 logging what it finds at each step.
 

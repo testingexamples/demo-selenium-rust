@@ -30,7 +30,7 @@ the list suits your project and comply with that one.
 ## Third-party references
 
 This demo drives a real browser against
-https://testingexamples.github.io, a page of HTML test fixtures published
+https://testingexamples.github.io/en-001/practice/, a page of HTML test fixtures published
 in this same project family, purely for educational browser-automation
 testing practice.
 

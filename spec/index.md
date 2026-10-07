@@ -32,7 +32,7 @@ program is a walkthrough, not a test suite.
 
 ## Detail
 
-Target URL: `https://testingexamples.github.io`
+Target URL: `https://testingexamples.github.io/en-001/practice/`
 
 WebDriver server: a local `chromedriver` listening on `http://localhost:9515`.
 
@@ -74,7 +74,7 @@ Form interactions performed, in order:
 ## Acceptance criteria
 
 - The program connects to a local WebDriver server and navigates to
-  `https://testingexamples.github.io` without error.
+  `https://testingexamples.github.io/en-001/practice/` without error.
 - Each of the five locators above resolves to exactly one element on the
   live page (no timeout or "no such element" error from Selenium).
 - The text input accepts the fill value `"hello"`, the checkbox and radio
@@ -89,5 +89,5 @@ Form interactions performed, in order:
 
 ## Sources
 
-- [https://testingexamples.github.io](https://testingexamples.github.io)
+- [https://testingexamples.github.io/en-001/practice/](https://testingexamples.github.io/en-001/practice/)
 - [https://crates.io/crates/thirtyfour](https://crates.io/crates/thirtyfour)
